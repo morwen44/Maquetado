@@ -1,0 +1,36 @@
+/*El asterisco es el selector universal*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*La concatenacion se hace con una coma , */
+/*Selector por tagname*/
+/*Selecciona todos los elementos cuyo tagname sea el indicado en el selector*/
+p,
+span {
+  text-transform: uppercase;
+}
+
+/*Selector por clase*/
+/*Siempre con un puntito al inicio*/
+.parrafo-destacado {
+  text-decoration: underline;
+  font-style: italic;
+  color: #985612;
+  font-weight: bold;
+  background-color: bisque;
+}
+
+/*Selector por ID*/
+/*Selecciona aquel elemento que haga match con el ID*/
+/*Se pone hashtag al inicio*/
+#main-heading {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: peru;
+}
+
+*:not(h1) {
+  border: 2px;
+}
