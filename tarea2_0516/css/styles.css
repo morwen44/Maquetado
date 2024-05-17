@@ -7,17 +7,17 @@ body {
   background-color: #f5d04e;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
   height: 100vh;
 }
 
 .card {
   border: 1px solid #333;
   background-color: #fff;
-  border-radius: 0.5rem;
+  border-radius: .5rem;
   width: 340px;
   padding: 1rem;
-  box-shadow: 0.5rem 0.5rem #000;
+  box-shadow: .5rem .5rem #000;
 }
 
 .card img {
@@ -31,7 +31,7 @@ button {
   font-weight: 800;
   background-color: #f5d04e;
   border: none;
-  border-radius: 0.4rem;
+  border-radius: .4rem;
 }
 
 .date {
@@ -49,16 +49,18 @@ h2 {
   margin-bottom: 25px;
 }
 
-.author img {
+.author-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author-wrapper img {
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  float: left;
 }
 
-.author h5 {
+.author-wrapper h5 {
   font-weight: 800;
-  position: relative;
-  top: 5px;
-  left: 10px;
 }
