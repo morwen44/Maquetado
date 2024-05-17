@@ -2,21 +2,22 @@
   font-family: "DM Sans", sans-serif;
   box-sizing: content-box;
 }
+
 body {
   background-color: #f5d04e;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   height: 100vh;
 }
 
 .card {
   border: 1px solid #333;
   background-color: #fff;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   width: 340px;
   padding: 1rem;
-  box-shadow: .5rem .5rem #000;
+  box-shadow: 0.5rem 0.5rem #000;
 }
 
 .card img {
@@ -30,7 +31,7 @@ button {
   font-weight: 800;
   background-color: #f5d04e;
   border: none;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
 }
 
 .date {
