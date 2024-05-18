@@ -1,0 +1,86 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0f1e7;
+}
+
+.contact {
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact label span {
+  color: #0a7e69;
+}
+
+.contact label {
+  margin-bottom: 0.4rem;
+  font-size: .7rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.input-row {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.info-input input[type="text"],
+.info-input input[type="email"],
+.info-input textarea {
+  border-radius: 0.3rem;
+  border: 1px solid #999;
+  height: 30px;
+}
+
+.info-input textarea {
+  height: unset;
+  resize: none;
+}
+
+.radio-group {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  height: 15px;
+  display: flex;
+  gap: 0.5rem;
+  border: 1px solid #999;
+}
+
+button{
+  width: 100%;
+  padding: .3rem;
+  border: none;
+  background-color: #0c7d69;
+  color: white;
+  border-radius: .5rem;
+  height: 30px;
+  font-size: .75rem;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+}
