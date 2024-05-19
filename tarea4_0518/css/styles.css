@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(226, 43%, 10%);
+  color: #fffdef;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  gap: 2rem;
+  width: calc(100% - 2rem);
+  padding: 1rem;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  gap: 2rem;
+  width: calc(100% - 2rem);
+  padding: 1rem;
+}
+
+.user-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 4rem;
+  width: calc(100% - 4rem);
+  margin: 3rem;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: hsl(246, 80%, 60%);
+  width: 70%;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  z-index: 2;
+  width: 100%;
+}
+
+.user-info img {
+  width: 4rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.legend {
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin-bottom: 0.3rem;
+  color: hsl(236, 100%, 87%);
+}
+
+.username {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.frequency {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 80px;
+  position: absolute;
+  top: 110px;
+}
+
+.frequency-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.time-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.time-results,
+.frequency {
+  background: hsl(235, 46%, 20%);
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.icon {
+  border-radius: 1rem;
+  padding-right: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  overflow: hidden;
+  height: 80px;
+}
+
+.icon img {
+  width: 5rem;
+  position: relative;
+  top: -10px;
+  object-fit: cover;
+}
+
+.time-results {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  position: absolute;
+  top: 40px;
+}
+
+.area-time,
+.more-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.time-results img {
+  width: 1rem;
+}
+
+.time-accumulated {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.area {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.more-info {
+  font-size: 0.9rem;
+  color: hsl(236, 100%, 87%);
+  align-items: end;
+}
+
+#work-icon {
+  background: hsl(15, 100%, 70%);
+}
+
+#play-icon {
+  background: hsl(195, 74%, 62%);
+}
+
+#study-icon {
+  background: hsl(348, 100%, 68%);
+}
+
+#exercise-icon {
+  background: hsl(145, 58%, 55%);
+}
+
+#social-icon {
+  background: hsl(264, 64%, 52%);
+}
+
+#selfcare-icon {
+  background: hsl(43, 84%, 65%);
+}
+
+@media only screen and (min-width: 1040px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 70%;
+    padding: 1rem;
+    max-height: 50vh;
+    margin: 1rem;
+  }
+  .app-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    max-height: 50vh;
+    padding: unset;
+    gap: 1rem;
+  }
+  .user-wrapper {
+    display: flex;
+    flex-direction: column;
+    top: 1rem;
+    position: relative;
+    margin: 0;
+    width: 26%;
+    height: 50vh;
+  }
+
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    background: hsl(246, 80%, 60%);
+    border-radius: 1rem;
+    padding: 2rem 1.5rem;
+    z-index: 2;
+    width: 100%;
+    height: 70%;
+  }
+
+  .user-info img {
+    width: 4rem;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .legend {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.3rem;
+    color: hsl(236, 100%, 87%);
+  }
+
+  .username {
+    font-size: 2.2rem;
+    font-weight: 300;
+  }
+
+  .frequency {
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 80px;
+    position: absolute;
+    top: 110px;
+    padding-bottom: 0.5rem;
+  }
+
+  .frequency-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 35%;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  .time-wrapper {
+    width: 31.7%;
+    display: flex;
+    position: relative;
+    height: 23vh;
+    margin: 0;
+  }
+
+  .time-results,
+  .frequency {
+    background: hsl(235, 46%, 20%);
+    width: 100%;
+    border-radius: 1rem;
+    height: 70%;
+  }
+  .time-results {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+  }
+
+  .icon img {
+    position: relative;
+    top: -10px;
+    object-fit: fill;
+  }
+}
