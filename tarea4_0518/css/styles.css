@@ -180,15 +180,14 @@ body {
 @media (min-width: 800px) {
   body {
     justify-content: center;
-    width: 100%;
+    height: 100vh;
   }
 
   .content {
     display: flex;
     flex-direction: row;
     gap: 1.6rem;
-    width: 100%;
-    height: 100%;
+    width: 100;
   }
 
   .user-wrapper {
@@ -248,7 +247,7 @@ body {
     margin-bottom: 1rem;
   }
 
-  .time-results-bot {
+  .time-results-bottom {
     flex-direction: column;
     align-items: flex-start;
   }
