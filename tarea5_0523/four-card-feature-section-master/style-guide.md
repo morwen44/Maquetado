@@ -13,15 +13,21 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Red: hsl(0, 78%, 62%)
+Supervisor
 - Cyan: hsl(180, 62%, 55%)
+Team builder
+- Red: hsl(0, 78%, 62%)
+Karma
 - Orange: hsl(34, 97%, 64%)
+Calculator
 - Blue: hsl(212, 86%, 64%)
 
 ### Neutral
-
+ritles
 - Very Dark Blue: hsl(234, 12%, 34%)
+text
 - Grayish Blue: hsl(229, 6%, 66%)
+background
 - Very Light Gray: hsl(0, 0%, 98%)
 
 ## Typography
