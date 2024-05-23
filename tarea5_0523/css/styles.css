@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Poppins";
+  size: 0.9rem;
+  background-color: hsl(0, 0%, 98%);
+  color: hwb(229 64% 32%);
+  padding: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 1rem;
+}
+
+h3, h4 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
+#bio {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+#slogan {
+  font-size: 1rem;
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+
+.card {
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: hsl(229, 6%, 66%);
+  box-shadow: 0px 6px 18px hsl(228, 20%, 80%);
+  border-radius: 0.4rem;
+}
+.card > p {
+  font-size: 0.8rem;
+}
+.card--intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 98%);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  box-shadow: none;
+}
+.card--column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  box-shadow: none;
+  padding: 0;
+  background-color: hsl(0, 0%, 98%);
+}
+.card--title-supervisor {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+.card--title-teambuilder {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+.card--title-karma {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+.card--title-calculator {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+.card--icon {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 2rem;
+  margin-left: 85%;
+}
+.card--icon-supervisor {
+  background-image: url("/tarea5_0523/four-card-feature-section-master/images/icon-supervisor.svg");
+}
+.card--icon-teambuilder {
+  background-image: url("/tarea5_0523/four-card-feature-section-master/images/icon-team-builder.svg");
+}
+.card--icon-karma {
+  background-image: url("/tarea5_0523/four-card-feature-section-master/images/icon-karma.svg");
+}
+.card--icon-calculator {
+  background-image: url("/tarea5_0523/four-card-feature-section-master/images/icon-calculator.svg");
+}
+
+@media (min-width: 800px) {
+  body {
+    justify-content: center;
+    height: 100vh;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.6rem;
+    width: 100%;
+  }
+  #bio {
+    width: 40%;
+  }
+  #slogan {
+    font-size: 2vw;
+  }
+}
+@media (min-width: 1120px) {
+  .container {
+    width: 70%;
+  }
+  #slogan {
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
