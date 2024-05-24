@@ -1,0 +1,45 @@
+$font-family-base:'Red Hat Display';
+
+
+$theme-colors: ("primary": hsl(245, 75%, 52%),
+    "secondary": #fff,
+    "light": hsl(225, 100%, 98%),
+    /*annual plan*/
+    "dark": hsl(223, 47%, 23%),
+    /*headings*/
+    "info": hsl(224, 23%, 55%),
+    /*text*/
+);
+
+
+$black: hsl(245, 75%, 52%);
+$box-shadow-lg:  0 1rem 1rem rgba($black, .175);
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/bootstrap.scss";
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/tarea6_0524/order-summary-component-main/images/pattern-background-mobile.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+@media (min-width: 800px) {
+    body {
+        background-image: url('/tarea6_0524/order-summary-component-main/images/pattern-background-desktop.svg');
+        background-size: contain;
+        background-position: top;
+        background-color: hsl(225, 100%, 94%);
+    }
+}
