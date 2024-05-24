@@ -24,7 +24,8 @@ body {
   padding: 1rem;
 }
 
-h3, h4 {
+h3,
+h4 {
   color: hsl(234, 12%, 34%);
   font-weight: 600;
 }
@@ -72,18 +73,6 @@ h3, h4 {
   padding: 0;
   background-color: hsl(0, 0%, 98%);
 }
-.card--title-supervisor {
-  border-top: 3px solid hsl(180, 62%, 55%);
-}
-.card--title-teambuilder {
-  border-top: 3px solid hsl(0, 78%, 62%);
-}
-.card--title-karma {
-  border-top: 3px solid hsl(34, 97%, 64%);
-}
-.card--title-calculator {
-  border-top: 3px solid hsl(212, 86%, 64%);
-}
 .card--icon {
   width: 50px;
   height: 50px;
@@ -93,17 +82,37 @@ h3, h4 {
   margin-top: 2rem;
   margin-left: 85%;
 }
+
 .card--icon-supervisor {
   background-image: url("/tarea5_0523/four-card-feature-section-master/images/icon-supervisor.svg");
 }
+
 .card--icon-teambuilder {
   background-image: url("/tarea5_0523/four-card-feature-section-master/images/icon-team-builder.svg");
 }
+
 .card--icon-karma {
   background-image: url("/tarea5_0523/four-card-feature-section-master/images/icon-karma.svg");
 }
+
 .card--icon-calculator {
   background-image: url("/tarea5_0523/four-card-feature-section-master/images/icon-calculator.svg");
+}
+
+.card--title-supervisor {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.card--title-teambuilder {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.card--title-karma {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.card--title-calculator {
+  border-top: 3px solid hsl(212, 86%, 64%);
 }
 
 @media (min-width: 800px) {
