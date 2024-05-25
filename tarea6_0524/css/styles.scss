@@ -14,6 +14,8 @@ $theme-colors: ("primary": hsl(245, 75%, 52%),
 
 $black: hsl(245, 75%, 52%);
 $box-shadow-lg:  0 1rem 1rem rgba($black, .175);
+
+
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 @import "bootstrap/bootstrap.scss";
